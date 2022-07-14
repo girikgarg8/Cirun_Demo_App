@@ -2,7 +2,7 @@ runners:
   - name: gpu-runner
     cloud: aws
     gpu: nvidia-tesla-t4
-    instance_type: t3.nano
-    machine_image: ami-0229f8cfc24033d05
+    instance_type: t2.large
+    machine_image: ami-06fd8a495a537da8b
     preemptible: true
     workflow: .github/workflows/test.yml
